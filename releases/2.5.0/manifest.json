@@ -1,0 +1,12 @@
+{
+ "format": 1,
+ "version": "2.5.0",
+ "released": "2026-11-21",
+ "notes": "Spotify's player can now be installed from the app (Settings > Spotify), with no terminal. The box can check for and install software updates itself (Settings > Software updates), and goes back to the old version by itself if an update doesn't start properly.",
+ "min_version": "2.4.0",
+ "zip": {
+  "url": "https://github.com/garrettthomson/musicbox-updates/releases/download/v2.5.0/musicbox_release_2.5.0.zip",
+  "sha256": "d4527d19815ac60961dbf26f82552c22bb04d693bf2b6ab3ffb4f5c34c0ef53f",
+  "size": 154949
+ }
+}

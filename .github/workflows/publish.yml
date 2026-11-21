@@ -1,0 +1,30 @@
+# Turns each new releases/<version>/ folder into a GitHub release, so boxes
+# find it at releases/latest/download/manifest.json. The files are signed
+# before they get here (manifest.json.sig); this only publishes them.
+name: Publish release
+on:
+  push:
+    branches: [main]
+    paths: ["releases/*/manifest.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish the newest version as the latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          V=$(ls releases | sort -V | tail -1)
+          D=releases/$V
+          test -f "$D/manifest.json" -a -f "$D/manifest.json.sig" -a -f "$D/musicbox_release_$V.zip"
+          grep -q "\"version\": \"$V\"" "$D/manifest.json"
+          if gh release view "v$V" > /dev/null 2>&1; then
+            gh release upload "v$V" "$D"/* --clobber
+          else
+            NOTES=$(python3 -c "import json,sys;print(json.load(open(sys.argv[1]))['notes'])" "$D/manifest.json")
+            gh release create "v$V" "$D"/* --title "Music Box $V" --notes "$NOTES" --latest
+          fi
