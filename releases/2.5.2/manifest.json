@@ -1,0 +1,12 @@
+{
+ "format": 1,
+ "version": "2.5.2",
+ "released": "2026-11-21",
+ "notes": "Unplug protection now runs by itself: no switch to remember. Install (updates and Spotify's player) restarts the box and turns protection back on without you doing anything, even if the install fails. Music you add or remove in the app is now kept while protection is on. Boxes that had protection off switch it on after this update (one extra restart).",
+ "min_version": "2.5.0",
+ "zip": {
+  "url": "https://github.com/garrettthomson/musicbox-updates/releases/download/v2.5.2/musicbox_release_2.5.2.zip",
+  "sha256": "a2616e0467e0aa8fd5b9d87d849fae1c939ca7f8b9f101cb1edfe1680668b7d7",
+  "size": 170562
+ }
+}
