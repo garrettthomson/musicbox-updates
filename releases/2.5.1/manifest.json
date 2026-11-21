@@ -1,0 +1,12 @@
+{
+ "format": 1,
+ "version": "2.5.1",
+ "released": "2026-11-21",
+ "notes": "Installing is now one tap. When you tap Install (software updates or Spotify's player), the box pauses, switches maintenance mode on by itself, installs, and turns unplug protection back on when it's done. It restarts twice, about 10 minutes in all. If something goes wrong it stays in maintenance mode and tells you what happened.",
+ "min_version": "2.5.0",
+ "zip": {
+  "url": "https://github.com/garrettthomson/musicbox-updates/releases/download/v2.5.1/musicbox_release_2.5.1.zip",
+  "sha256": "7f6dd621751a1f78e783c1b51466e1710b98848cf019b25ebc2a948cfcde20ba",
+  "size": 163511
+ }
+}
