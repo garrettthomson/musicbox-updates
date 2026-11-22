@@ -1,0 +1,12 @@
+{
+ "format": 1,
+ "version": "2.5.3",
+ "released": "2026-11-22",
+ "notes": "The Now screen now says where the music is playing from: \"Playing from Spotify\" (with Spotify's logo and an Open Spotify link), \"Playing from your music\" or \"Playing from Apple Music\". Every tile in the Tiles list says where its music comes from too, like \"Playlist from Spotify\" or \"Album from your music\".",
+ "min_version": "2.5.0",
+ "zip": {
+  "url": "https://github.com/garrettthomson/musicbox-updates/releases/download/v2.5.3/musicbox_release_2.5.3.zip",
+  "sha256": "1c07b1387cf405de24a559d617b975a362db3a022f73a2d3842a9064f7d4d1d0",
+  "size": 171880
+ }
+}
