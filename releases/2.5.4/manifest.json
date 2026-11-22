@@ -1,0 +1,12 @@
+{
+ "format": 1,
+ "version": "2.5.4",
+ "released": "2026-11-22",
+ "notes": "New Library tab: browse your own music and audiobooks by album, artist or audiobook, with covers. Search finds artists, albums and song names. Play any album, or any song in it, straight from the Library. Audiobooks show how far along you are and how much is left, under Continue listening. Make a tile from any album: tap Make a tile and set a tile on the box.",
+ "min_version": "2.5.0",
+ "zip": {
+  "url": "https://github.com/garrettthomson/musicbox-updates/releases/download/v2.5.4/musicbox_release_2.5.4.zip",
+  "sha256": "483de32d10d4d66e3e3ee1cf01f2865f25b8a14730f6f5014cd9a7f680a269f2",
+  "size": 175968
+ }
+}
