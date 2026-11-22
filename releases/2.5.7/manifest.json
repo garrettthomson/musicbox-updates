@@ -1,0 +1,12 @@
+{
+ "format": 1,
+ "version": "2.5.7",
+ "released": "2026-11-22",
+ "notes": "Your own music works out of the box: the Library now sets up its music player by itself. Installing this update adds the player if the box doesn't have it; if it can't, the Library page shows a one-tap Set up the music player button. If the player has stopped, the Library offers to start it again instead of asking you to restart the box.",
+ "min_version": "2.5.0",
+ "zip": {
+  "url": "https://github.com/garrettthomson/musicbox-updates/releases/download/v2.5.7/musicbox_release_2.5.7.zip",
+  "sha256": "161cfc39b40cdd63d368f5fd47a1855d42dbe8c83d7af67eebb6ef716b6357af",
+  "size": 198195
+ }
+}
