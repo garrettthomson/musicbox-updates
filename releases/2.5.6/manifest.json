@@ -1,0 +1,12 @@
+{
+ "format": 1,
+ "version": "2.5.6",
+ "released": "2026-11-22",
+ "notes": "The About this album card is back for Spotify. Since the switch to Spotify's own player, the box wasn't reading the artist's name, so the Now screen left the artist blank and couldn't look the album up. It now shows the artist, and About this album (year, Wikipedia, track list, credits) appears again. Your own albums and Apple Music get the card too now (audiobooks don't).",
+ "min_version": "2.5.0",
+ "zip": {
+  "url": "https://github.com/garrettthomson/musicbox-updates/releases/download/v2.5.6/musicbox_release_2.5.6.zip",
+  "sha256": "ca5491d8910b8f93b36c55f0d2eb954d9bb630a15dfc1323d598c6c6e5d5df29",
+  "size": 189883
+ }
+}
