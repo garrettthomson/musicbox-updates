@@ -1,0 +1,12 @@
+{
+ "format": 1,
+ "version": "2.5.3",
+ "released": "2026-11-22",
+ "notes": "Spotify music now says so: the Now screen shows \"Playing from Spotify\" with Spotify's logo and an Open Spotify link, and Spotify tiles in the Tiles list say \"Playlist from Spotify\", \"Album from Spotify\" and so on. Local music and other tiles look the same as before.",
+ "min_version": "2.5.0",
+ "zip": {
+  "url": "https://github.com/garrettthomson/musicbox-updates/releases/download/v2.5.3/musicbox_release_2.5.3.zip",
+  "sha256": "79e6549ddde77e768f3437e3adbefeca9874e40cddb56fb17d5d5619ab376c39",
+  "size": 171773
+ }
+}
