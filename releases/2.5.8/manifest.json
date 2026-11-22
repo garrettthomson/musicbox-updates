@@ -1,0 +1,12 @@
+{
+ "format": 1,
+ "version": "2.5.8",
+ "released": "2026-11-22",
+ "notes": "New look: Music Boxx colors (cream, walnut and teal), the Music Boxx name and mark in the app, and a new home-screen icon. Nothing else changes.",
+ "min_version": "2.5.0",
+ "zip": {
+  "url": "https://github.com/garrettthomson/musicbox-updates/releases/download/v2.5.8/musicbox_release_2.5.8.zip",
+  "sha256": "74e95c7a0859528f41a17cb205c7cd9227f04c4ad374566015608347b59b658f",
+  "size": 236920
+ }
+}
