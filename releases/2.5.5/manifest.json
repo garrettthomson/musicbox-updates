@@ -1,0 +1,12 @@
+{
+ "format": 1,
+ "version": "2.5.5",
+ "released": "2026-11-22",
+ "notes": "Adding your own music is simpler: drag albums or your whole music folder onto the Add music page from a computer. The box checks the files first and says which ones it can't play (like songs locked by Apple Music), then sends them in small pieces straight to its memory card, with progress and picking up where it stopped. No more running out of memory on smaller boxes.",
+ "min_version": "2.5.0",
+ "zip": {
+  "url": "https://github.com/garrettthomson/musicbox-updates/releases/download/v2.5.5/musicbox_release_2.5.5.zip",
+  "sha256": "290ea311252585e20789f45e7e04d3a3be7c8527ebf5c8026ae962ee04a67428",
+  "size": 189155
+ }
+}
