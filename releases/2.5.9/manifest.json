@@ -1,0 +1,12 @@
+{
+ "format": 1,
+ "version": "2.5.9",
+ "released": "2026-11-23",
+ "notes": "New: Erase this box (factory reset) at the bottom of Settings. It asks for your PIN, the word RESET and a final yes, and can keep your tiles and music. Nothing else changed.",
+ "min_version": "2.5.0",
+ "zip": {
+  "url": "https://github.com/garrettthomson/musicbox-updates/releases/download/v2.5.9/musicbox_release_2.5.9.zip",
+  "sha256": "54e06d152aa50b354cb902621d9f09cfe43e493a0c76f2852f9ba558cd1d7ffc",
+  "size": 248167
+ }
+}
