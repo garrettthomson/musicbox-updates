@@ -1,0 +1,12 @@
+{
+ "format": 1,
+ "version": "2.5.10",
+ "released": "2026-11-25",
+ "notes": "Fixes: the box now locks its memory card again after saving (unplug protection could stay off), and no longer copies Spotify's busy cache files to the card every few seconds. New: the Now screen and Settings tell you when something's wrong, like songs Spotify skipped because it won't play them on your account, or the music player stopping. A dot on Settings shows when something needs a look.",
+ "min_version": "2.5.0",
+ "zip": {
+  "url": "https://github.com/garrettthomson/musicbox-updates/releases/download/v2.5.10/musicbox_release_2.5.10.zip",
+  "sha256": "245109282f11aed5ee87087ed6a2b6ee71fa88df620e4070392f9dd1c0ec3f96",
+  "size": 255102
+ }
+}
